@@ -1,0 +1,47 @@
+# GLOBAL SITE SETTINGS
+cname: theweddingwarren.com.au
+allow_robots: false
+
+# META
+title: Inspire
+title_homepage: The Wedding Warren - Essential Wedding Stationery
+company: The Wedding Warren
+description:
+
+# DEVELOPER
+github_repo_owner: liquidvisual
+github_repo_path: https://github.com/liquidvisual/theweddingwarren-0218
+github_repo_name: theweddingwarren-0218
+jekyll_version: 3.7.0
+
+# OFFICES
+offices:
+  - title: Sydney, NSW, 2000
+    address: Australia
+    phone: (05) 555 555
+    email: theweddingwarren@gmail.com
+
+# SOCIAL MEDIA
+social_media:
+  - title: Facebook
+    url: '#'
+  - title: Twitter
+    url: '#'
+  - title: Google+
+    url: '#'
+  - title: Pinterest
+    url: '#'
+  - title: Instagram
+    url: '#'
+  - title: YouTube
+    url: '#'
+
+# GOOGLE
+google_analytics: 'UA-XXXXXXXX-X'
+
+# AUTHOR
+author:
+  title: Mitch
+  url: http://liquidvisual.com
+  logo: /assets/img/ui/liquidvisual-logo.svg
+  description: by liquidvisual

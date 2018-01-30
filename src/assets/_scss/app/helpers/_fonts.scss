@@ -1,0 +1,31 @@
+/*
+    FONTS.CSS
+
+    - updated: 08.12.17
+    - liquidvisual.com
+*/
+//-----------------------------------------------------------------
+// VARIABLES
+//-----------------------------------------------------------------
+
+$font-path: "/assets/fonts" !default;
+
+//-----------------------------------------------------------------
+// SUN VALLEY
+//-----------------------------------------------------------------
+
+// Normal
+@font-face {
+    font-family: 'SunValley';
+    font-style: normal;
+    font-weight: 300;
+    src: url('#{$font-path}/SunValley-Demo.eot');
+    src: local('☺'),
+        url('#{$font-path}/SunValley-Demo.woff') format('woff'),
+        url('#{$font-path}/SunValley-Demo.tff') format('truetype'),
+        url('#{$font-path}/SunValley-Demo.svg') format('svg');
+}
+
+//=========================================
+//
+//=========================================
