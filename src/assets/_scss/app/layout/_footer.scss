@@ -16,7 +16,7 @@
 
 .global-footer-bottom {
 	padding: $spacer/2 0;
-	background: #3d3d3d;
+	background: darken($primary, 5%);
 	color: white;
 
 	a {

@@ -9,34 +9,44 @@ layout: base
 
 	<!-- SERVICES -->
 	<section id="gallery" class="section inverse" style="background: #91a7cf;">
-		<div class="container px-xl-5">
-			<h2 class="text-center mb-5 subheader display-3">What I can do for you</h2>
-			<ul class="block-grid-md-2 text-center">
-				<li class="h3">Invitations</li>
-				<li class="h3">Table Numbers</li>
-				<li class="h3">Save the Dates</li>
-				<li class="h3">Name Cards</li>
-				<li class="h3">Welcome Sign</li>
-				<li class="h3">Favour Tags / Stickers</li>
-				<li class="h3">Ceremony Booklet</li>
-				<li class="h3">Cake Box</li>
-				<li class="h3">Seating Plan</li>
-				<li class="h3">Signs</li>
-				<li class="h3">Menu</li>
-				<li class="h3">Thank You Cards</li>
-			</ul>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<h2 class="text-center mb-4">What I Can Do for You</h2>
+					<ul class="block-grid-xs-1 block-grid-md-2 text-center">
+						<li class="h4">Invitations</li>
+						<li class="h4">Table Numbers</li>
+						<li class="h4">Save the Dates</li>
+						<li class="h4">Name Cards</li>
+						<li class="h4">Welcome Sign</li>
+						<li class="h4">Favour Tags / Stickers</li>
+						<li class="h4">Ceremony Booklet</li>
+						<li class="h4">Cake Box</li>
+						<li class="h4">Seating Plan</li>
+						<li class="h4">Signs</li>
+						<li class="h4">Menu</li>
+						<li class="h4">Thank You Cards</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section>
 
 	<!-- GALLERY -->
 	<section id="gallery" class="section">
 		<div class="container">
-			<h2 class="text-center mb-5">Gallery</h2>
-			<ul class="block-grid-md-2 block-grid-lg-3">
-				{% for i in (1..5) %}
-					<li><img width="100%" src="/assets/img/content/gallery-{{i}}.png" alt="Gallery"></li>
-				{% endfor %}
-			</ul>
+			<h2 class="text-center mb-4">Gallery</h2>
+
+			<div class="row justify-content-center">
+				<div class="col-md-9">
+					<ul class="block-grid-xs-2 block-grid-lg-3">
+						{% for i in (1..6) %}
+							<li><img width="100%" src="/assets/img/content/gallery-{{i}}.png" alt="Gallery"></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
@@ -45,7 +55,7 @@ layout: base
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 col-lg-6 col-xl-5">
-					<h2 class="text-center mb-5">Ready to go?<br> Get a quick quote today.</h2>
+					<h2 class="text-center mb-5">Would you like to know more?<br> Let's have a chat.</h2>
 					{% include forms/form_basic.html %}
 				</div>
 			</div>

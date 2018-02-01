@@ -24,17 +24,13 @@ offices:
 # SOCIAL MEDIA
 social_media:
   - title: Facebook
-    url: '#'
-  - title: Twitter
-    url: '#'
-  - title: Google+
-    url: '#'
-  - title: Pinterest
-    url: '#'
+    url: https://www.facebook.com/The-Wedding-Warren-168312447226857/
+
   - title: Instagram
-    url: '#'
-  - title: YouTube
-    url: '#'
+    url: https://www.instagram.com/theweddingwarren/
+
+  - title: Pinterest
+    url: https://www.pinterest.com.au/theweddingwarren/
 
 # GOOGLE
 google_analytics: 'UA-XXXXXXXX-X'

@@ -82,7 +82,7 @@
 //   "gray-dark":  $gray-800
 // ), $colors);
 
-// $primary:       $blue !default;
+$primary:       #91a7cf; //$blue !default;
 // $secondary:     $gray-600 !default;
 // $success:       $green !default;
 // $info:          $cyan !default;
@@ -414,7 +414,7 @@ $font-family-sans-serif:      'Raleway', -apple-system, BlinkMacSystemFont, "Seg
 // $btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
 // $btn-focus-width:             $input-btn-focus-width !default;
 // $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
-// $btn-disabled-opacity:        .65 !default;
+$btn-disabled-opacity:        1; //.65 !default;
 // $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
 
 // $btn-link-disabled-color:     $gray-600 !default;
@@ -448,7 +448,7 @@ $font-family-sans-serif:      'Raleway', -apple-system, BlinkMacSystemFont, "Seg
 
 // $input-color:                           $gray-700 !default;
 // $input-border-color:                    $gray-400 !default;
-// $input-border-width:                    $input-btn-border-width !default;
+$input-border-width:                    0; //$input-btn-border-width !default;
 // $input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;       //2px 2px 3px 3px yellow; //
 
 // $input-border-radius:                   $border-radius !default;
@@ -537,7 +537,7 @@ $font-family-sans-serif:      'Raleway', -apple-system, BlinkMacSystemFont, "Seg
 // $custom-select-bg-size:             8px 10px !default; // In pixels because image dimensions
 // $custom-select-indicator-color:     $gray-800 !default;
 // $custom-select-indicator:           str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E"), "#", "%23") !default;
-// $custom-select-border-width:        $input-btn-border-width !default;
+$custom-select-border-width:        0; //$input-btn-border-width !default;
 // $custom-select-border-color:        $input-border-color !default;
 // $custom-select-border-radius:       $border-radius !default;
 

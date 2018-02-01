@@ -18,6 +18,18 @@
 	font-style: normal;
 }
 
+.birdcage {
+	@include media-breakpoint-down(sm) {
+	    width: 100%;
+	}
+}
+
+.subheader {
+	@include media-breakpoint-down(sm) {
+	    font-size: rem-calc(30);
+	}
+}
+
 //=========================================
 //
 //=========================================
